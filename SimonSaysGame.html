@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simon Says Game</title>
+  <link rel="stylesheet" href="SimonSaysGame.css"/>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <img src="NabihaHasratLogo.png" alt="Logo" class="logo-img" />
+        <span>Nabiha Hasrat</span>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <!-- <li><a href="#about">About</a></li> -->
+          <li><a href="HomePage.html">Home</a></li>
+          <li><a href="SimonSaysGame.html">Game</a></li>
+          <!-- <li><a href="#journal">Journal</a></li>
+          <li><a href="#contact">Contact</a></li> -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Game Section -->
+  <main class="game-container">
+    <h1 class="game-title">🎵 Simon Says Game 🎵</h1>
+    <h3 class="game-status">Press any key to Start</h3>
+    <h4 class="score-display">Highest Score: <span id="highestScore">0</span></h4>
+
+    <div class="btn-container">
+      <div class="rowOne">
+        <div class="btn pink" type="button" id="pink"></div>
+        <div class="btn green" type="button" id="green"></div>
+      </div>
+      <div class="rowTwo">
+        <div class="btn purple" type="button" id="purple"></div>
+        <div class="btn yellow" type="button" id="yellow"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="SimonSaysGame.js"></script>
+</body>
+</html>
